@@ -3,7 +3,7 @@
 __📝 Descripción del Proyecto
 Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.__
 
-- El simulador permite a los usuarios:
+El simulador permite a los usuarios:
 
 1) Crear nuevos procesos permitiendole colocarle el nombre que se desee, la memoria RAM que requieren y su duración.
 
@@ -28,7 +28,7 @@ Este simulador ha sido desarrollado utilizando las siguientes tecnologías web:_
 
 - Tailwind CSS: Utilizado para el diseño y la estilización de la interfaz de usuario, proporcionando un enfoque de utilidad-first para un desarrollo rápido y responsivo.
 
-__🛠️ Requisitos de Instalación y Uso
+__🛠️ Requisitos de Instalación y Uso:  
 Este simulador es una aplicación web simple que se ejecuta en el navegador. No requiere de ninguna instalación de software adicional ni dependencias.__ 
 
 🚀 Cómo Usar el Simulador
