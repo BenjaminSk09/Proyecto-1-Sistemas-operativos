@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         checkAndRunProcesses();
         updateUI();
     }
+    
     // Refresca la UI (RAM, procesos, cola)
     function updateUI() {
         const ramUsagePercentage = ((RAM_TOTAL_MB - ramDisponible_MB) / RAM_TOTAL_MB) * 100;
