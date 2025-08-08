@@ -1,38 +1,35 @@
 💻 Simulador de Gestión de Procesos en Memoria RAM
 
 📝 Descripción del Proyecto
-Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
+- Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
 
-El simulador permite a los usuarios:
+- El simulador permite a los usuarios:
 
-Crear nuevos procesos permitiendole colocarle el nombre que se desee, la memoria RAM que requieren y su duración.
+1) Crear nuevos procesos permitiendole colocarle el nombre que se desee, la memoria RAM que requieren y su duración.
 
-Se puede Observar la ejecución concurrente de múltiples procesos.
+2) Se puede Observar la ejecución concurrente de múltiples procesos.
 
-Se visualiza cómo los procesos que exceden la memoria disponible son colocados en una cola de espera.
+3) Se visualiza cómo los procesos que exceden la memoria disponible son colocados en una cola de espera.
 
-Tambien se puede ver como se libera automáticamente la memoria cuando un proceso finaliza.
+4) Tambien se puede ver como se libera automáticamente la memoria cuando un proceso finaliza.
 
-Monitorear el estado actual de la memoria RAM (disponible y ocupada) y la lista de procesos en ejecución y en cola.
+5) Monitorear el estado actual de la memoria RAM (disponible y ocupada) y la lista de procesos en ejecución y en cola.
 
 🚀 Tecnologías Implementadas
 Este simulador ha sido desarrollado utilizando las siguientes tecnologías web:
 
-Lenguajes de Programación:
+- Lenguajes de Programación:
 
-HTML5: Para la estructura y el contenido de la interfaz de usuario.
+- HTML5: Para la estructura y el contenido de la interfaz de usuario.
 
-JavaScript (ES6+): Para la lógica de simulación, gestión de procesos y actualización dinámica de la interfaz.
+- JavaScript (ES6+): Para la lógica de simulación, gestión de procesos y actualización dinámica de la interfaz.
 
-Frameworks/Librerías de Estilos:
+- Frameworks/Librerías de Estilos:
 
-Tailwind CSS: Utilizado para el diseño y la estilización de la interfaz de usuario, proporcionando un enfoque de utilidad-first para un desarrollo rápido y responsivo.
+- Tailwind CSS: Utilizado para el diseño y la estilización de la interfaz de usuario, proporcionando un enfoque de utilidad-first para un desarrollo rápido y responsivo.
 
-Requisitos de Instalación y Uso
-Este simulador es una aplicación web simple que se ejecuta en el navegador. No requiere de ninguna instalación de software adicional ni dependencias.
-
-🛠️ Requisitos de Instalación y Uso
-Este simulador es una aplicación web simple que se ejecuta en el navegador. No requiere de ninguna instalación de software adicional ni dependencias.
+__🛠️ Requisitos de Instalación y Uso
+Este simulador es una aplicación web simple que se ejecuta en el navegador. No requiere de ninguna instalación de software adicional ni dependencias.__ 
 
 🚀 Cómo Usar el Simulador
 1. Clona o descarga el repositorio:
