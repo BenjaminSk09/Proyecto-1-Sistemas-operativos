@@ -1,14 +1,12 @@
 __💻 Simulador de Gestión de Procesos en Memoria RAM__
 
-<<<<<<< HEAD
 __📝 Descripción del Proyecto:__    
 Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
-=======
+
 ![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/d5c4f4c3342de24958576f052ffb341b924292ef/Capturas%20de%20Funcionamiento/Imagen%20principal%20.png)
 
 __📝 Descripción del Proyecto:__    
 Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
->>>>>>> 57de69b940d3676bc1cfb2f066adda18b77ce6d4
 
 El simulador permite a los usuarios:  
 
@@ -59,3 +57,14 @@ Si no se utiliza Git, Puedes descargar el archivo ZIP del repositorio directamen
  - Los procesos que se asignan a la Ram aparecerán en la seccion de "Procesos en Ejecución".
  - Si no hay memoria disponible los procesos se colocarán en la "Cola de Espera" hasta que se libere la memoria.
  - Por ultimo, los procesos en ejecución se eliminaran cuando su duracion llegue a cero, liberando asi memoria para los procesos que estan en espera.
+
+__📷Capturas de pantalla del programa en funcionamiento__
+
+1) Memoria Ram en un estado normal.
+![image alt]() 
+
+2) Memoria Ram Casi llena Sin ningun proceso en cola.
+![image alt]()
+
+3) Memoria Ram Llena y con procesos en cola que seran asignados cuando haya un espacio disponible.
+![image alt]()
