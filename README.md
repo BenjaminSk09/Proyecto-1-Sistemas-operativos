@@ -67,9 +67,9 @@ __📷Capturas de pantalla del programa en funcionamiento__
 ![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/c29457c683a48a7f2e00f8df2f9e7efd15dea43c/Capturas%20de%20Funcionamiento/Memoria%20Ram%20llena%20y%20procesos%20en%20cola.png)
 
 
-Integrantes del grupo: 
+Integrantes del grupo:     
 
--Esdras Alexander Choc Ajú         Carné: 1990-23-12485
--Henry Daniel Cabrera Estrada      Carné: 1990-23-3718
--Benjamin Bonifacio Sincal Ajú     Carné: 1990-23-11281
--Emerson Estudardo Guzmán Vielman  Carné: 1990-23-3484
+-Esdras Alexander Choc Ajú         Carné: 1990-23-12485  
+-Henry Daniel Cabrera Estrada      Carné: 1990-23-3718  
+-Benjamin Bonifacio Sincal Ajú     Carné: 1990-23-11281  
+-Emerson Estudardo Guzmán Vielman  Carné: 1990-23-3484  
