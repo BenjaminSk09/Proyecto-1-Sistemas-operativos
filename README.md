@@ -1,7 +1,14 @@
 __💻 Simulador de Gestión de Procesos en Memoria RAM__
 
+<<<<<<< HEAD
 __📝 Descripción del Proyecto:__    
 Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
+=======
+![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/d5c4f4c3342de24958576f052ffb341b924292ef/Capturas%20de%20Funcionamiento/Imagen%20principal%20.png)
+
+__📝 Descripción del Proyecto:__    
+Este proyecto es un simulador interactivo de gestión de procesos en un sistema operativo con memoria RAM limitada. El objetivo principal es demostrar cómo un sistema operativo maneja la asignación de memoria, la ejecución concurrente de procesos y la gestión de una cola de espera cuando la memoria disponible es insuficiente.
+>>>>>>> 57de69b940d3676bc1cfb2f066adda18b77ce6d4
 
 El simulador permite a los usuarios:  
 
