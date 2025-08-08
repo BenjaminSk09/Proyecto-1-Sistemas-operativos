@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class="text-sm text-gray-500">Memoria ocupada: <span class="text-red-500">${RAM_TOTAL_MB - ramDisponible_MB}</span> MB</p>
         `;
 
-        ramBarEl.style.width = ${ramUsagePercentage}%;
+        ramBarEl.style.width = `${ramUsagePercentage}%` ;
         ramBarEl.style.backgroundColor = ramUsagePercentage > 80 ? 'rgb(239 68 68)' : 'rgb(34 197 94)';
 
         // Procesos activos
@@ -90,13 +90,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Crea la "tarjeta" visual de un proceso
+   // Crea la "tarjeta" visual de un proceso
     function createProcessCard(proceso, colorClass) {
         const card = document.createElement('div');
-        card.className = p-4 ${colorClass} rounded-lg shadow-sm;
+        card.className = `p-4 ${colorClass} rounded-lg shadow-sm`;
         card.innerHTML = `
             <p class="text-sm font-semibold text-gray-800">PID: ${proceso.pid}</p>
-            <p class="text-lg font-bold text-gray-900">${proceso.nombre || Proceso-${proceso.pid}}</p>
+            <p class="text-lg font-bold text-gray-900">${proceso.nombre || `Proceso-${proceso.pid}`}</p>
             <p class="text-sm text-gray-600">Memoria: ${proceso.memoria} MB</p>
             <p class="text-sm text-gray-600">Duración restante: ${proceso.duracion} seg</p>
         `;
