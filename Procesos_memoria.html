@@ -49,3 +49,40 @@
                 </div>
             </form>
         </div>
+<!-- Dashboard de estado del sistema -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- Estado de la memoria RAM -->
+            <div class="p-6 bg-green-50 border-green-200 border rounded-xl shadow-inner col-span-1 lg:col-span-1">
+                <h2 class="text-xl font-semibold text-green-700 mb-4">Estado de la Memoria RAM</h2>
+                <div id="ram-status" class="text-lg font-mono text-green-800">
+                </div>
+                <!-- Barra de progreso para la RAM -->
+                <div class="mt-4 w-full h-8 bg-gray-200 rounded-full overflow-hidden">
+                    <div id="ram-bar" class="h-full bg-green-500 transition-all duration-500 ease-in-out"
+                        style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <!-- Procesos en Ejecución -->
+            <div class="p-6 bg-red-50 border-red-200 border rounded-xl shadow-inner col-span-1 lg:col-span-1">
+                <h2 class="text-xl font-semibold text-red-700 mb-4">Procesos en Ejecución</h2>
+                <div id="running-processes" class="space-y-4">
+                    <p class="text-gray-500">No hay procesos en ejecución.</p>
+                </div>
+            </div>
+
+            <!-- Cola de Espera -->
+            <div class="p-6 bg-yellow-50 border-yellow-200 border rounded-xl shadow-inner col-span-1 lg:col-span-1">
+                <h2 class="text-xl font-semibold text-yellow-700 mb-4">Cola de Espera</h2>
+                <div id="waiting-queue" class="space-y-4">
+                    <p class="text-gray-500">La cola de espera está vacía.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="Procesos.js"></script>
+</body>
+
+</html>
