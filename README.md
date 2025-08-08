@@ -61,9 +61,9 @@ __📷Capturas de pantalla del programa en funcionamiento__
 ![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/c29457c683a48a7f2e00f8df2f9e7efd15dea43c/Capturas%20de%20Funcionamiento/Memoria%20Ram%20normal.png) 
 
 2) Memoria Ram Casi llena Sin ningun proceso en cola.
-![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/c29457c683a 48a7f2e00f8df2f9e7efd15dea43c/Capturas%20de%20Funcionamiento/Memoria%20Ram%20casi%20llena%20.png)
+![image_alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/f75f9b494867562842e530947271c0894716d6c9/Capturas%20de%20Funcionamiento/Memoria%20Ram%20casi%20llena%20.png)
 
-3) Memoria Ram Llena y con procesos en cola que seran asignados cuando haya un espacio disponible.
+4) Memoria Ram Llena y con procesos en cola que seran asignados cuando haya un espacio disponible.
 ![image alt](https://github.com/BenjaminSk09/Proyecto-1-Sistemas-operativos/blob/c29457c683a48a7f2e00f8df2f9e7efd15dea43c/Capturas%20de%20Funcionamiento/Memoria%20Ram%20llena%20y%20procesos%20en%20cola.png)
 
 
